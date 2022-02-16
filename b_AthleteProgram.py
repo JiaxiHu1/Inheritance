@@ -1,3 +1,4 @@
+#when we import - it should be the file's name 
 import b_AthleteClass as ac
 
 generic_athlete = ac.Athlete(6,220,0.2)

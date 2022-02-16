@@ -7,7 +7,9 @@ class Plant:
     def get_color(self):
         return self.__color
 
-
+#that's how to show the inheriting - flower(plant)
+#in the flower - there are two subclass - color and then petals 
+#we need to create plant first and then flower 
 class Flower(Plant):
     def __init__(self,color, petals):
         Plant.__init__(self,color)
